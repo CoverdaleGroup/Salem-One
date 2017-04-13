@@ -250,6 +250,10 @@ input, button, select, textarea {
     background-color: #043B56;
 }
 
+.btn-success {
+    background-color: #77be43;
+}
+
 
 .jumbotron {
     margin:15px;
@@ -271,7 +275,10 @@ input, button, select, textarea {
     background-color: #77be43;
 
 }
+.panel-primary .panel-heading .panel-title {
+    background-color: #0D4C92;
 
+}
 .header-navigation .badge {
     background-color: #77be43;
 }
