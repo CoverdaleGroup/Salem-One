@@ -358,3 +358,12 @@ input, button, select, textarea {
     position: relative;
     margin-bottom: 15px;
 }
+
+.order-cloud-image {
+
+    background-color: #f1f1f1;
+}
+
+.order-cloud .form-signin {
+    background: #fff;
+}
