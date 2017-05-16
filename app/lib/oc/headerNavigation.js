@@ -16,7 +16,7 @@ function headernavigation() {
             '<div class="row">',
             '<div class="col-xs-12 col-sm-6 pull-right">',
             '<ul>',
-            '<li ng-if="userSpendingAccounts"><span class="hidden-xs">{{userSpendingAccounts[0].Label}}: {{userSpendingAccounts[0].Balance | currency}}</span></li>',
+            //'<li ng-if="userSpendingAccounts"><span class="hidden-xs">{{userSpendingAccounts[0].Label}}: {{userSpendingAccounts[0].Balance | currency}}</span></li>',
             '<li><a href="contactus"><i class="fa fa-envelope"></i> Contact Us</a></li>',
             '<li><a href="admin"><i class="fa fa-cog"></i> Account</a></li>',
             '<li><a href="cart"><i class="fa fa-shopping-cart"></i> Cart&nbsp;',
@@ -26,7 +26,7 @@ function headernavigation() {
             '</ul>',
             '</div>',
             '</div>',
-            '</section>' 
+            '</section>'
         ].join('');
     }
 }
