@@ -58,7 +58,22 @@
                 <nav class="navbar navbar-default" role="navigation">
                     <div class="container">
                         <ul class="nav navbar-nav pull-right">
-                            <li><productsearchinput></productsearchinput></li>
+
+                                <!--SPENDING ACCOUNTS NAV-->
+                                <li ng-if="userSpendingAccounts">
+                                    <span class="hidden-xs">{{userSpendingAccounts[0].Label}} {{userSpendingAccounts[0].Balance | currency}}</span>
+                                </li>
+                                <li ng-if="userSpendingAccounts">
+                                    <span class="hidden-xs">{{userSpendingAccounts[1].Label}} {{userSpendingAccounts[1].Balance | currency}}</span>
+                                </li>
+                                <li ng-if="userSpendingAccounts">
+                                    <span class="hidden-xs">{{userSpendingAccounts[2].Label}} {{userSpendingAccounts[2].Balance | currency}}</span>
+                                </li>
+                                <li ng-if="userSpendingAccounts">
+                                    <span class="hidden-xs">{{userSpendingAccounts[3].Label}} {{userSpendingAccounts[3].Balance | currency}}</span>
+                                </li>
+
+                            <li><productsearchinput></productsearchinput></li>  
                         </ul>
                     </div>
                 </nav>
