@@ -28,6 +28,11 @@ function ($scope, $route, $location, $451, User, Order, Security, OrderConfig, C
                 $scope.user.Culture.CurrencyPrefix = XLATService.getCurrentLanguage(user.CultureUI, user.Culture.Name)[1];
                 $scope.user.Culture.DateFormat = XLATService.getCurrentLanguage(user.CultureUI, user.Culture.Name)[2];
 
+				//SPENDING ACCOUNTS NAV
+				SpendingAccount.query(function(data) {
+					$scope.userSpendingAccounts = data;
+				});
+
 	            if (!$scope.user.TermsAccepted)
 		            $location.path('conditions');
 
