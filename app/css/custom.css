@@ -271,6 +271,11 @@ input, button, select, textarea {
     color: #9a9a9a;
 }
 
+.navbar-nav > li > a {
+
+    line-height: 10px;
+}
+
 .navbar-default {
     background-color: #77be43;
 
